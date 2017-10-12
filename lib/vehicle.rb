@@ -1,11 +1,9 @@
 class Vehicle
-  attr_reader :wheel, :size
-  attr_accessor :number
+  attr_reader :wheel_size, :wheel_number
 
-  def initialize(wheel, size, number)
-    @wheel = wheel
-    @size = size
-    @number = number
+  def initialize(wheel_size, wheel_number)
+    @wheel_size = wheel_size
+    @wheel_number = wheel_number
   end
 
   def go
